@@ -1,0 +1,247 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:none;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+ul,ol,li {
+list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {text-decoration:none;
+    margin:0;
+    padding:0;
+    font-size:100%;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+#__next{
+    padding-top:50px;
+}
+
+a{
+        color : #555;
+}
+/* .list a */
+main{
+    width : 1200px;
+    margin : 0 auto;
+    padding : 30px;
+    background: url('/images/back02.png') no-repeat center bottom;
+    background-size: 70%;
+}
+
+main>h1{
+    font-size : 35px;
+    text-align: center;
+    margin-bottom:40px;
+    color : #555;
+}
+
+/* main>div.list{
+    background : url('/images/back04.png') no-repeat center top;
+    padding-top : 15px;
+}
+
+main>div.list>div{
+    width:70%;
+    margin : 0 auto;
+    padding : 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color : #555;    
+}
+
+main>div.list>div>ul{
+    width : 80px;
+    padding : 8px 0;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+}
+
+main>div.list>div>ul>li{    
+    position:relative;
+}
+
+main>div.list>div>ul>li>ul{
+    position:absolute;
+    top:24px;
+    left:0;
+    width:80px;
+}
+
+main>div.list>div>ul>li>ul>li{
+    border-top : 1px dotted #ffffff;
+    padding : 10px 5px;
+    z-index: 500;
+    background-color: #555;
+}
+
+main>div.list>table{
+    width : 70%;
+    margin: 0 auto;
+    border : 1px solid #555;
+    text-align: center;
+}
+
+main>div.list>table>thead{
+    background-color: rgb(248, 248, 248);
+    border-bottom : 5px double #555;
+}
+
+main>div.list>table>thead>tr>th{
+    padding : 10px 0;
+    font-weight: bold;
+}
+
+main>div.list>table>thead>tr>td{
+    font-weight: bold;
+}
+
+main>div.list>table>tbody>tr>td{
+    padding : 20px 0;
+    border-bottom : 1px solid #555;
+} */
+
+main.contentMain{
+    background : none;
+    text-align: center;
+    border : 1px solid #555;
+}
+
+main.contentMain>figure{
+    padding : 20px 0 ;
+    margin-bottom : 15px;
+}
+main.contentMain>figure>img{
+    margin-bottom : 35px;
+}
+
+main.contentMain>figure>figcaption>dl{
+    width : 80%;
+    margin: 0 auto 30px;
+    color : #555;
+}
+
+main.contentMain>figure>figcaption>dl>dt{
+    font-weight: bold;
+    margin-bottom:15px;
+}
+
+main.contentMain>figure>figcaption>dl>dd{
+    line-height: 25px;
+    margin-bottom : 15px;
+    text-align: justify;
+}
+
+main.contentMain>p{
+    background-color: rgb(103, 103, 103);
+    padding : 15px 0 ;
+    width : 80%;
+    margin: 0 auto 10px;
+}
+
+main.contentMain>p>a{
+    color : #fff;
+    display: block;
+    cursor: pointer;
+}
+
+.page{
+    width:70%;
+    margin: 0 auto;
+    /* background-color: pink; */
+    display: flex;
+    padding : 30px 0 ;
+    justify-content: center;
+    align-items: center;
+}
+
+.page>li{
+    margin : 0 12px;
+    cursor: pointer;
+}

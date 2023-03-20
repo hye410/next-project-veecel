@@ -1,0 +1,68 @@
+.list{
+    background : url('/images/back04.png') no-repeat center top;
+    padding-top : 15px;
+}
+
+/* .list>div{
+    width:70%;
+    margin : 0 auto;
+    padding : 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color : #555;    
+}
+
+.list>div>ul{
+    width : 80px;
+    padding : 8px 0;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+}
+
+.list>div>ul>li{    
+    position:relative;
+}
+
+.list>div>ul>li>ul{
+    position:absolute;
+    top:24px;
+    left:0;
+    width:80px;
+}
+
+.list>div>ul>li>ul>li{
+    border-top : 1px dotted #ffffff;
+    padding : 10px 5px;
+    z-index: 500;
+    background-color: #555;
+}
+
+.list>table{
+    width : 70%;
+    margin: 0 auto;
+    border : 1px solid #555;
+    text-align: center;
+}
+
+.list>table>thead{
+    background-color: rgb(248, 248, 248);
+    border-bottom : 5px double #555;
+}
+
+.list>table>thead>tr>th{
+    padding : 10px 0;
+    font-weight: bold;
+}
+
+.list>table>thead>tr>td{
+    font-weight: bold;
+}
+
+.list>table>tbody>tr>td{
+    padding : 20px 0;
+    border-bottom : 1px solid #555;
+} */
